@@ -2,17 +2,12 @@
     <main id="app">
         <!-- TopHead is the header with the information about the app -->
         <TopHead v-if="agent && messages.length > 0" :agent="agent">
+
+
             
         </TopHead>
 
-        <div class="task-box">
-            <ul>
-                <h1>Aufgaben</h1>
-                <li v-for="task in Tasks" v-bind:key="task">
-                {{ task.label }}
-                </li>
-            </ul>
-        </div>
+        
         
         <div class="chat">
 
