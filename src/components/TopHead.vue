@@ -73,6 +73,16 @@ export default {
             type: Object,
             default: null
         }
+    },
+    data(){
+        return {
+            Tasks: [
+                { id: ('task1'), label: 'Frage nach einem Rezept'},
+                { id: ('task2'), label: 'Frage nach einem Rezept'},
+                { id: ('task3'), label: 'Frage nach einem Rezept'},
+                { id: ('task4'), label: 'Frage nach einem Rezept'}
+            ]
+        }
     }
 }
 </script>
