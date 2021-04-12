@@ -68,7 +68,7 @@
         display: none
 
 .chat-field-input
-    font-size: 16px
+    font-size: 18px
     width: 100%
     box-sizing: border-box
     border: none
