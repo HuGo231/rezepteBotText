@@ -72,6 +72,7 @@ body
 .chat
     max-width: var(--container-width)
     margin: auto auto
+    font-size: 16px
     padding: 70px 12px 112px 12px
 
 .task-box
